@@ -1,0 +1,18 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "This repository contains an introductory project that uses GraphQL in support with NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Aryan Raj",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "graphql": "^16.8.1",
+    "nodemon": "^3.0.1"
+  }
+}
